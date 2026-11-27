@@ -4,13 +4,15 @@
 
 [![Deploy with Clawnify](https://app.clawnify.com/deploy-button.svg)](https://app.clawnify.com/deploy?repo=clawnify/OpenTable)
 
-A flexible, multi-table data UI for building SaaS dashboards, CRM tools, and spreadsheet-like apps. Part of the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem. Zero cloud dependencies — runs locally with SQLite.
+A flexible, multi-table data UI for building SaaS dashboards, CRM tools, and spreadsheet-like apps. Zero cloud dependencies — runs locally with SQLite.
+
+The app is open source. Deploy it to Clawnify to use it from ChatGPT, Claude, or other MCP-compatible AI chats through the Clawnify connector.
 
 Built with **Preact + Hono + SQLite**. Ships with a dual-mode UI: one for humans (click-to-edit, drag-to-reorder) and one for AI agents (explicit buttons, large targets).
 
 ## What Is It?
 
-Clawnify OpenTable is a production-ready table UI framework designed for the OpenClaw community. Think of it as an open-source Clay alternative — a data table you can self-host, customize, and embed in any SaaS product.
+Clawnify OpenTable is a production-ready table UI framework. Think of it as an open-source Clay alternative — a data table you can self-host, customize, and embed in any SaaS product.
 
 Unlike Clay or Airtable, this runs entirely on your own infrastructure with no API keys, no vendor lock-in, and no per-seat pricing. Create multiple tables, define custom columns, sort/filter/paginate, and export to CSV — all out of the box.
 
@@ -37,7 +39,7 @@ pnpm run dev
 
 Open `http://localhost:5174` in your browser. Data persists in `data.db`.
 
-### Agent Mode (for OpenClaw / Browser-Use)
+### Agent Mode (for browser automation)
 
 Append `?agent=true` to the URL:
 
@@ -101,7 +103,7 @@ _rows    (id, table_id, data JSON, created_at, updated_at)
 
 ## Community & Contributions
 
-This project is part of the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem. Contributions are welcome — open an issue or submit a PR.
+Contributions are welcome — open an issue or submit a PR.
 
 ## License
 
